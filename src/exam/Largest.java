@@ -2,7 +2,7 @@ package exam;
 
 public class Largest {
     public static void main(String[] args) {
-        int sum = sumOfTwoLargestNumbers(5, 4, 3);
+        int sum = sumOfTwoLargestNumbers(10, 7, 3);
         System.out.println("Sum of two largest numbers - " + sum);
     }
 
