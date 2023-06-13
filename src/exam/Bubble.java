@@ -8,6 +8,7 @@ public class Bubble {
         System.out.println("Not sorted - " + Arrays.toString(array));
         System.out.println("Sorted - " + Arrays.toString(selectionSort(array)));
     }
+
     public static int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
